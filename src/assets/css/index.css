@@ -1,0 +1,264 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  margin-bottom: 35px;
+}
+
+#header .title {
+  font-size: 42px;
+  line-height: 50.4px;
+  margin-bottom: 10px;
+}
+
+#header p {
+  color: rgb(116, 116, 118);
+  font-size: 16px;
+}
+
+input[name="search"] {
+  padding: 18.5px 14px;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.87);
+  font-style: 16px;
+  letter-spacing: 0.15008px;
+  line-height: 19.0016px;
+  border-radius: 4px;
+  border: 1px solid rgb(116, 116, 118);
+}
+
+.card-pokemon {
+  background: url("https://relaxed-jang-821b42.netlify.app/static/media/watermark-pokeball.8f7e353c.svg")
+    right center no-repeat;
+  padding: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.card-pokemon:hover {
+  opacity: 0.8;
+}
+
+.card-pokemon h5 {
+  font-size: 30px;
+}
+
+.card-pokemon .card-type_properties {
+  margin-block: 10px 0;
+  gap: 5px;
+}
+
+.card-pokemon .card-type_properties li {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  min-width: 45px;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 3px 0px;
+}
+
+.card-img-top {
+  width: 96px !important;
+}
+
+.properties-pokemon {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0px;
+}
+
+.card-properties_pokemon {
+  max-width: 600px;
+  width: 100%;
+  height: 500px;
+  border-radius: 35px;
+  overflow: hidden;
+  margin: 15px;
+  background: rgb(255, 255, 255);
+}
+
+.card-properties__abilities {
+  background: url("https://relaxed-jang-821b42.netlify.app/static/media/watermark-pokeball-large.c135a291.svg")
+    no-repeat;
+  background-position: center top 106px;
+  background-size: 100px;
+  padding: 50px 35px !important;
+}
+
+.card-abilities__name {
+  font-size: 32px;
+}
+
+.card-abilities__img {
+  margin-block: 15px 35px;
+}
+
+.card-abilities__h3 {
+  font-size: 18px;
+}
+
+.card-abilities__list {
+  margin-top: 25px;
+  font-size: 16px;
+  display: grid;
+  gap: 5px;
+}
+
+.card-abilities__item {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-properties__stats {
+  padding: 50px 35px !important;
+}
+
+.card-stats__h3 {
+  color: rgb(98, 185, 87);
+  font-size: 18px;
+}
+
+.card-stats__list {
+  margin-block: 35px 15px;
+}
+
+.card-stats__item {
+  padding-block: 10px;
+}
+
+.card-stats__ruler {
+  width: 150px;
+  height: 4px;
+  background: rgb(245, 245, 245);
+  border-radius: 15px;
+}
+
+.card-stats__ruler::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  background-color: rgb(98, 185, 87);
+  width: var(--ruler-width);
+}
+
+/* css background card */
+.bg-normal {
+  background-color: rgb(181, 185, 196);
+}
+.bg-fighting {
+  background-color: rgb(235, 73, 113);
+}
+.bg-flying {
+  background-color: rgb(235, 73, 113);
+}
+.bg-poison {
+  background-color: rgb(159, 110, 151);
+}
+.bg-ground {
+  background-color: rgb(247, 133, 81);
+}
+.bg-rock {
+  background-color: rgb(111, 110, 120);
+}
+.bg-bug {
+  background-color: rgb(139, 214, 116);
+}
+.bg-ghost {
+  background-color: rgb(133, 113, 190);
+}
+.bg-steel {
+  background-color: rgb(76, 145, 178);
+}
+.bg-fire {
+  background-color: rgb(255, 167, 86);
+}
+.bg-water {
+  background-color: rgb(88, 171, 246);
+}
+.bg-grass {
+  background-color: rgb(139, 190, 138);
+}
+.bg-electric {
+  background-color: rgb(242, 203, 85);
+}
+.bg-psychic {
+  background-color: rgb(255, 101, 104);
+}
+.bg-ice {
+  background-color: rgb(145, 216, 223);
+}
+.bg-dragon {
+  background-color: rgb(115, 131, 185);
+}
+.bg-dark {
+  background-color: rgba(0, 0, 0, 0);
+}
+.bg-fairy {
+  background-color: rgb(235, 168, 195);
+}
+.bg-stellar {
+}
+.bg-unknown {
+}
+
+/* css type */
+.normal_type {
+  background: rgb(157, 160, 170);
+}
+.fighting_type {
+  background: rgb(208, 65, 100);
+}
+.flying_type {
+  background: rgb(116, 143, 201);
+}
+.poison_type {
+  background: rgb(165, 82, 204);
+}
+.ground_type {
+  background: rgb(221, 119, 72);
+}
+.rock_type {
+  background: rgb(186, 171, 130);
+}
+.bug_type {
+  background: rgb(140, 178, 48);
+}
+.ghost_type {
+  background: rgb(85, 106, 174);
+}
+.steel_type {
+  background: rgb(65, 125, 154);
+}
+.fire_type {
+  background: rgb(253, 125, 36);
+}
+.water_type {
+  background: rgb(74, 144, 218);
+}
+.grass_type {
+  background: rgb(98, 185, 87);
+}
+.electric_type {
+  background: rgb(238, 213, 53);
+}
+.psychic_type {
+  background: rgb(234, 93, 96);
+}
+.ice_type {
+  background: rgb(97, 206, 192);
+}
+.dragon_type {
+  background: rgb(15, 106, 192);
+}
+.dark_type {
+  background: rgb(159, 110, 151);
+}
+.fairy_type {
+  background: rgb(237, 110, 199);
+}
+.stellar_type {
+}
+.unknown_type {
+}
